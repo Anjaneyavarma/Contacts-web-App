@@ -19,7 +19,7 @@ app.use('/contacts',router);
 
 
 
-mongoose.connect('mongodb+srv://Anjaneyavarma:c70tENOfxGPSa8Kx@cluster0.t1zoe.mongodb.net/<dbname>?retryWrites=true&w=majority',
+mongoose.connect('',
     { useNewUrlParser: true },
     ()=>console.log('MongoDb connected')
 )
