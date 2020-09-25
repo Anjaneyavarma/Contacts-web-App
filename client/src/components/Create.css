@@ -1,0 +1,40 @@
+.create{
+    padding:40px;
+}
+
+label{
+    margin-top: 10px;
+    font-weight: 700;
+    color: blue;
+    display: flex;
+}
+input{
+    object-fit: contain;
+    height: 30px;
+    width: 300px;
+}
+.contact-name{
+    object-fit: contain;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-number{
+    object-fit: contain;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.create-submit{
+    object-fit: contain;
+    margin-top: 10px;
+}
+
+.create-submit > input{
+    object-fit: contain;
+    color: blue;
+    width: 150px;
+}
+

@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+}
+
+.home{
+  padding: 10px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 1px solid lightblue;
+}
+
+.home-header{
+  display: flex;
+}
+
+
+ul{
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+li{
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+Link{
+  text-decoration: none;
+}
+  
+
+li:hover{
+  color: none;
+}
